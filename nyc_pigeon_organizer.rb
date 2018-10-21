@@ -1,3 +1,11 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  pigeon_list = Hash.new
+  data.each do |attribute, att_values|
+    #binding.pry
+    att_values.each do |keys, name_arrays|
+      binding.pry
+    end
+  end
 end
